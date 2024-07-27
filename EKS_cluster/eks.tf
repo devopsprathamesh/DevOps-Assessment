@@ -36,7 +36,7 @@ module "eks" {
       instance_types = ["t3.large"]
       capacity_type  = "SPOT"
       tags = {
-         EKS = DEV
+         EKS = "DEV"
       }
     }
   }
