@@ -3,8 +3,6 @@ module "eks" {
   version = "~> 20.0"
 
   cluster_name    = local.clustername
-  cluster_version = local.clusterversion
-
   cluster_endpoint_public_access  = true
 
   cluster_addons = {
@@ -31,23 +29,18 @@ module "eks" {
   }
 
   eks_managed_node_groups = {
-    SM_assessment = {
+    myeks-cluster-wg = {
       min_size     = 1
-      max_size     = 10
+      max_size     = 2
       desired_size = 1
-
       instance_types = ["t3.large"]
       capacity_type  = "SPOT"
-      key_name = "eks-cluster-terraform"  #your-existing-key-pair-name
-            tags = {
-              ExtraTag = "test"
-            }
-
+      tags = {
+         EKS = DEV
+      }
     }
   }
 
-  # Cluster access entry
-  # To add the current caller identity as an administrator
   enable_cluster_creator_admin_permissions = true
   tags = {
     Environment = "dev"
