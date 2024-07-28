@@ -12,4 +12,10 @@ resource "helm_release" "gitlabrunner-agent" {
   chart      = "gitlab-runner"
   version    = "0.67.1"
   namespace  = "testdev"
+
+values = [
+    "${file("values.yaml")}"
+  ]
+
 }
+
