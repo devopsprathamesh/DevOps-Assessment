@@ -75,7 +75,7 @@ readinessProbe: {}
 ## be retrieved from your GitLab instance. It is the token of an already registered runner.
 ## ref: (we don't have docs for that yet, but we want to use an existing token)
 ##
-# runnerToken: ""
+runnerToken: "glpat-xP6MgabLYzRvdMyR7sTQ"
 #
 
 ## Unregister all runners before termination
