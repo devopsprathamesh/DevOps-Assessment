@@ -49,7 +49,7 @@ imagePullPolicy: IfNotPresent
 ## The GitLab Server URL (with protocol) that want to register the runner against
 ## ref: https://docs.gitlab.com/runner/commands/index.html#gitlab-runner-register
 ##
-#gitlabUrl: https://gitlab.com/devopsgeek
+gitlabUrl: https://gitlab.com
 
 ## DEPRECATED: The Registration Token for adding new Runners to the GitLab Server.
 ##
