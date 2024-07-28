@@ -14,7 +14,7 @@ resource "helm_release" "gitlabrunner-agent" {
   namespace  = "testdev"
 
 values = [
-    "${file("values.yaml")}"
+    "${file("./values.yaml")}"
   ]
 
 }
