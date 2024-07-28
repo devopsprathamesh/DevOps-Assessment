@@ -6,7 +6,7 @@ provider "helm" {
 }
 
 
-resource "helm_release" "gitlabrunner-agent" {
+resource "helm_release" "gitlabrunner-agent1" {
   name       = "mygitlab-runner"
   repository = "https://charts.gitlab.io"
   chart      = "gitlab-runner"
