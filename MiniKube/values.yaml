@@ -358,11 +358,11 @@ runners:
   ##
   ## ref: https://docs.gitlab.com/ee/ci/runners/new_creation_workflow.html
   ##
-  # tags: ""
+  tags: "pratham"
 
   ## Specify the name for the runner.
   ##
-  # name: ""
+  name: "myrunner"
 
   ## DEPRECATED: Specify the maximum timeout (in seconds) that will be set for job when using this Runner
   ##
