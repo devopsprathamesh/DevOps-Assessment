@@ -156,23 +156,23 @@ rbac:
 
   ## Define list of rules to be added to the rbac role permissions.
   ## Each rule supports the keys:
-  - apiGroups: default "" #(indicates the core API group) if missing or empty.
-  - resources: default "*" #if missing or empty.
-  - verbs: default "*" #if missing or empty.
+  ##- apiGroups: default "" #(indicates the core API group) if missing or empty.
+  ##- resources: default "*" #if missing or empty.
+  ##- verbs: default "*" #if missing or empty.
   ##
   ## Read more about the recommended rules on the following link
   ##
   ## ref: https://docs.gitlab.com/runner/executors/kubernetes.html#configure-runner-api-permissions
   ##
-  rules: []
-  # - resources: ["configmaps", "events", "pods", "pods/attach", "pods/exec", "secrets", "services"]
-  #   verbs: ["get", "list", "watch", "create", "patch", "update", "delete"]
-  # - apiGroups: [""]
-  #   resources: ["pods/exec"]
-  #   verbs: ["create", "patch", "delete"]
-  # - apiGroups: [""]
-  #   resources: ["pods/log"]
-  #   verbs: ["get"]
+  rules: 
+   - resources: ["configmaps", "events", "pods", "pods/attach", "pods/exec", "secrets", "services"]
+     verbs: ["get", "list", "watch", "create", "patch", "update", "delete"]
+   - apiGroups: [""]
+     resources: ["pods/exec"]
+     verbs: ["create", "patch", "delete"]
+   - apiGroups: [""]
+     resources: ["pods/log"]
+     verbs: ["get"]
 
   ## Run the gitlab-bastion container with the ability to deploy/manage containers of jobs
   ## cluster-wide or only within namespace
