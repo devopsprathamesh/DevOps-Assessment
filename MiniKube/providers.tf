@@ -27,6 +27,8 @@ values = [
     }
 }
 
+## gitlabagent for newer version > 16.*.*
+
 #resource "helm_release" "kubecluster-agent1" {
 #  name       = "mykubecluster-agent1"
 #  namespace  = "gitlab-agent-minikubeagent"
