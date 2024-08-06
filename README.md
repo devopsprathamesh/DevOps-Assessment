@@ -1,9 +1,9 @@
-Deploy gitlab runner on K8s Cluster 
+**Deploy gitlab runner on K8s Cluster **
 
 *** Pre-req [ Minikube / Rancher-Desktop ]
 
-1. Minikube : https://minikube.sigs.k8s.io/docs/start/?arch=%2Fmacos%2Farm64%2Fstable%2Fbinary+download#Service
-2. Rancher-Desktop : https://docs.rancherdesktop.io/getting-started/installation
+**1. Minikube :** https://minikube.sigs.k8s.io/docs/start/?arch=%2Fmacos%2Farm64%2Fstable%2Fbinary+download#Service
+**2. Rancher-Desktop :** https://docs.rancherdesktop.io/getting-started/installation
 
 ***  https://github.com/devopsprathamesh/DevOps-Assessment/blob/main/MiniKube/**providers.tf**
 
@@ -28,7 +28,7 @@ version    = "0.64.0"
 
 <img width="556" alt="image" src="https://github.com/user-attachments/assets/9f6a1cad-8b92-48bd-9020-d96cd39051b1">
 
-Configurations : https://github.com/devopsprathamesh/DevOps-Assessment/blob/main/MiniKube/**values.yaml**
+**Configurations : ** https://github.com/devopsprathamesh/DevOps-Assessment/blob/main/MiniKube/**values.yaml**
 
 1. runnerRegistrationToken: "GR1348941jxqLynFNDj4Vy9qP6yxu" ## this token is used by runner for auth and registration and it is mandatory
 2. rbac:
