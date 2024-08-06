@@ -24,6 +24,7 @@ version    = "0.64.0"
     name  = "image.tag"
     value = "v17.3.0"
     }
+
 <img width="556" alt="image" src="https://github.com/user-attachments/assets/9f6a1cad-8b92-48bd-9020-d96cd39051b1">
 
 Configurations : https://github.com/devopsprathamesh/DevOps-Assessment/blob/main/MiniKube/**values.yaml**
