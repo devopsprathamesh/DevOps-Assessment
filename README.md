@@ -16,6 +16,7 @@ provider "helm" {
 
 ## gitlabagent for older version < 16.*.*
 version    = "0.64.0"
+
 <img width="556" alt="image" src="https://github.com/user-attachments/assets/bd08f93f-c786-4a0b-8048-ca1b3948d8d8">
 
 
