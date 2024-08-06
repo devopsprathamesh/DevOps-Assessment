@@ -48,6 +48,7 @@ Configurations : https://github.com/devopsprathamesh/DevOps-Assessment/blob/main
 terraform init
 terraform validate
 terraform apply
+
 <img width="821" alt="image" src="https://github.com/user-attachments/assets/7697a23e-ab6b-4699-b295-60d2814f0dca">
 
 
@@ -55,6 +56,6 @@ Post above the runner pods will be deployed and runner can be visible on dashboa
 <img width="603" alt="image" src="https://github.com/user-attachments/assets/e1b976c5-b694-4c70-b94e-96d45bfb67c4">
 
 
-OPTIONAL : Use can your userspecific personal tokens in gitlab > edit-profile > Access Tokens > Add newtoken
+OPTIONAL : For TEMP Use can your userspecific personal tokens in **gitlab > edit-profile > Access Tokens > Add newtoken**
 <img width="1350" alt="image" src="https://github.com/user-attachments/assets/f1fc18a1-7d83-4f3c-9731-4d710e047119">
 
