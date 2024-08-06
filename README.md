@@ -55,3 +55,5 @@ Post above the runner pods will be deployed and runner can be visible on dashboa
 <img width="603" alt="image" src="https://github.com/user-attachments/assets/e1b976c5-b694-4c70-b94e-96d45bfb67c4">
 
 
+OPTIONAL : Use can your userspecific personal tokens in gitlab > edit-profile > Access Tokens > Add newtoken
+<img width="1385" alt="image" src="https://github.com/user-attachments/assets/77d71866-8631-4865-8cab-5ea97a033946">
