@@ -1,4 +1,4 @@
-<img width="603" alt="image" src="https://github.com/user-attachments/assets/eb3a8939-460d-4097-a398-65321087818a">Deploy gitlab runner on K8s Cluster 
+Deploy gitlab runner on K8s Cluster 
 
 *** Pre-req [ Minikube / Rancher-Desktop ]
 
