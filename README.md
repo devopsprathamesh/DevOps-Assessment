@@ -1,9 +1,12 @@
-**Deploy gitlab runner on K8s Cluster **
+**Deploy gitlab runner on K8s Cluster**
 
-*** Pre-req [ Minikube / Rancher-Desktop ]
+**Pre-req [ Minikube / Rancher-Desktop ]**
 
-**1. Minikube :** https://minikube.sigs.k8s.io/docs/start/?arch=%2Fmacos%2Farm64%2Fstable%2Fbinary+download#Service
-**2. Rancher-Desktop :** https://docs.rancherdesktop.io/getting-started/installation
+1. **Minikube** : https://minikube.sigs.k8s.io/docs/start/?arch=%2Fmacos%2Farm64%2Fstable%2Fbinary+download#Service
+
+2. **Rancher-Desktop** : https://docs.rancherdesktop.io/getting-started/installation
+
+3. **Terraform** : https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli 
 
 ***  https://github.com/devopsprathamesh/DevOps-Assessment/blob/main/MiniKube/**providers.tf**
 
